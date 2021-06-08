@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="About Page"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoLink="web"
+            android:text="Developers' Details\n\n
+Group: RCS2405C\n
+Programme Code: CS240\n
+Course Code: ICT602\n\n
+Group Members:\n
+Muhammad Naufal Aniq Bin Khairol Amali (2020977015)\n
+Nurul Atiqah Binti Shari (2020996885)\n\n
+Information\n
+This Android mobile application is about to calculates the Body Mass Index (BMI). The height and weight are entered so that BMI category, its range and health risks can be obtained as output. \n\n
+Copyright Statement\n
+Application Website Url: ©️ 2021 BMI Mobile App www.github.com/...."
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
